@@ -49,3 +49,4 @@ ggplot(identidade_gen_agreste, aes(x = id_gen, y = n, fill = id_gen)) +
   ) +
   expand_limits(y = max(identidade_gen_agreste$n) * 1.15)
 
+
